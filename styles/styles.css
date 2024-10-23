@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+
+
 
 /* shared styles */
 body {
@@ -20,6 +25,10 @@ body {
     border: none;
     text-align: center;
     
+}
+body{
+    width: 80%;
+    margin: 0 auto;
 }
 /* nav related styles */
 
@@ -48,7 +57,7 @@ body {
 .link-list{
     list-style: none;
     margin-right: 45px;
-    padding: 5px;
+    padding: 3px;
     
 }
 .link-item{
@@ -58,10 +67,145 @@ body {
     font-weight: 400;
    
 }
-/* header related styles */
-header{
-    width: 80%;
-    margin: 0 auto;
+/* banner related styles */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.banner-content{
+    max-width: 550px;
+    
+  
+}
+.banner-img{
+  position: relative;
+  
+}
+.banner-title{
+    
+    color: rgb(255, 255,  255);
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 1px;
+   
+}
+.banner-description{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+#btn-primaryy{
+    color: rgb(255, 255,  255);
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.btn-secondary{
+   padding: 12px 33px;
+   border-radius: 46px;
+   background-color: rgb(17, 17,  17);
+   color: rgb(255, 255,  255);
+   margin-left: 14px;
+   font-size: 17px;
+   font-weight: 600;
+  
+}
+.banner-btn{
+    width: 190px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;  
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: left;
+    top: 425px;
+    left: -80px;
+    position: absolute;
+    display:flex ;
+   
+   
+  
+}
+.banner-btn1{
+  text-align: center;
+  letter-spacing: 1;
+  line-height: 1px;
+
+ 
+ 
+}
+.btn-color{
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    position: absolute;
+    padding: 18px;
+    left: 14px;
+    top: 25px;
+ 
+  
+}
+.btn-content{
+    color: rgb(255, 255,  255);
+    margin-bottom: 0;
+    padding: 5px 7px 5px 40px;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 9rem;
+    font-weight: 50;
+  
+}
+.btn-description{
+    color: rgba(239, 237, 232, 0.65);
+    padding: 5px 7px 5px 65px;
+  
+}
+
+ 
+.another-btn{
+
+    width: 158px;
+    height: 85px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;  
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    text-align: left;
+    top: 160px;
+    right: -70px;
+    position: absolute;
+    padding: 10px 7px 5px 15px;
+   
+}
+.btn-title{
+  
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 20px;
+    text-align: center;
+    
+   
+  
+}
+.btn-title1{
+    color: rgb(255, 255,  255);
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+
+.btn-description1{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
 }
 
 
@@ -78,15 +222,7 @@ header{
     
     .list-item{
         
-            display: none;
-            /* align-items: center;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding-left: 5px;
-            border-radius: 39px;
-            box-sizing: border-box;   */
-           
-          
-            
+            display: none;        
     }
     #ham{
         display: inline-block;
@@ -94,6 +230,45 @@ header{
     }
   
  
-          
+          /* banner responsive */
+          @media screen and (max-width:576px) {
+            .banner-container{
+                flex-direction: column;
+                margin: 0 80px;
+               
+            }
+            .banner-img{
+                margin-top: 50px;
+                position: relative;
+            }
+            .btn-container{
+                display: flex;
+                gap: 20px;
+            }
+            .btn-primary{
+                width: 210px;
+                font-size: 10px;
+                font-weight: 600;
+               
+            }
+            .btn-secondary{
+                width: 200px;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 5px 7px;
+            }
+            .another-btn{
+                top: 40px;
+                left: 200px;
+                font-size: 25px;
+                font-weight: 900;
+                padding: 0px 5px 10px 20px;
+            }
+            .banner-btn{
+                position: absolute;
+                top: 240px;
+                left: 10px;
+            }
+          }
 
 }
