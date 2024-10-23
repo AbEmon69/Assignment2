@@ -209,6 +209,106 @@ body{
 }
 
 
+/* habit related styles */
+
+.habit{
+    text-align: center;
+    margin-top: 150px;
+   
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+   
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.habit-image{
+    display: flex;
+    margin-top: 58px;
+}
+.habit-images img{
+    border-radius: 50%;
+}
+.habit-tit{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.habit-greet{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+/* Run design */
+.Run-container{
+    display: flex;
+    margin-top: 80px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 15px 60px;
+    align-items: center;
+  
+   
+}
+.run-title{
+    width: 40%;
+    margin-right: 200px;
+}
+.run-tit{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 900;
+    width: 220px;
+   
+}
+.run-greet{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+   
+}
+.run-image img{
+    width: 366px;
+    height: 312px;
+}
+.run-image img{
+    margin-top: 20px;
+   object-fit: none;
+   object-position: 66% 30%;
+  
+  
+}
+.run-image img {
+    border-radius: 18px;
+  
+
+    
+    
+}
+#join{
+    width: 180px;
+    color: rgb(255, 255,  255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
 /* responsive design */
 @media screen and (max-width:576px) {
    
@@ -268,6 +368,35 @@ body{
                 position: absolute;
                 top: 240px;
                 left: 10px;
+            }
+            /* habit responsive design */
+            .habit-image{
+                flex-direction: column;
+            }
+            /* run responsive design */
+            #join{
+                padding: 10px 0px;
+                width: 360px;
+                height: 54px;
+              
+            }
+            .Run-container{
+                flex-direction: column;
+                padding: 0px 30px;
+            }
+            .run-image img{
+              margin-top: 30px;
+             
+              /* object-position: 66% 23%;
+             width: 397px;
+             height: 470px; */
+            }
+            .run-tit{
+                width: 250px;
+            }
+            .run-greet{
+                width: 300px;
+               justify-content: flex-start;
             }
           }
 
