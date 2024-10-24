@@ -33,7 +33,7 @@ body {
 }
 .body{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 /* nav related styles */
 
@@ -50,6 +50,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0px;
 }
 .list-item{
     display: flex;
@@ -105,6 +106,8 @@ body {
     font-weight: 400;
     margin-bottom: 28px;
     margin-top: 25px;
+    width: 520px;
+    text-align: left;
 }
 #btn-primaryy{
     color: rgb(255, 255,  255);
@@ -176,22 +179,31 @@ body {
 
   
 }
+.btn-description1{
+    width: 146px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
 
  
 .another-btn{
 
-    width: 158px;
-    height: 85px;
+    width: 193px;
+    height: 98px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;  
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     text-align: left;
-    top: 160px;
-    right: -70px;
+    top: 120px;
+    right: -82px;
     position: absolute;
-    padding: 10px 7px 5px 15px;
+    padding: 20px 7px 5px 15px;
    
 }
 .btn-title{
@@ -208,6 +220,9 @@ body {
     color: rgb(255, 255,  255);
     letter-spacing: 1px;
     line-height: 1px;
+    font-size: 40px;
+    font-weight: 900;
+  
 }
 
 .btn-description1{
@@ -217,6 +232,7 @@ body {
     line-height: 14px;
     margin-top: 20px;
     width: 200px;
+    margin-top: 30px;
 }
 .another-btn-content{
     padding: 15px 5px;
@@ -245,6 +261,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+  
+    
 }
 .habit-image{
     display: flex;
@@ -299,6 +317,8 @@ body {
     line-height: 24px;
     letter-spacing: 0.3px;
     margin-top: 12px;
+    width: 443px;
+    text-align: left;
    
 }
 .run-image img{
@@ -362,6 +382,7 @@ body {
     box-sizing: border-box;
     background-color: rgb(34, 34, 34);
     margin-top: 70px;
+    padding: 40px ;
 }
 .bmi-container{
     display: flex;
@@ -440,7 +461,7 @@ input[type="text"]{
 
 }
 input[type="email"]{
-    width: 71%;
+    width: 85%;
     padding: 8px;
     border-radius: 4px;
     background-color: rgb(66, 64, 64);
@@ -451,6 +472,240 @@ input[type="email"]{
     color: rgb(255, 255,  255);
     width: 180px;
     padding: 10px;
+}
+
+
+
+
+
+
+/* Plans Section */
+.offer-section{
+    margin: 100px 150px;
+
+}
+.offer{
+    background-color: #000000;
+    width: 400px;
+    padding: 3px 4px 20px 4px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    margin-top: 30px;
+   
+    
+}
+.offer-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.img-con{
+    width: auto;
+}
+.offer img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    margin-bottom: 18px;
+    
+}
+.offer-section h2,p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 5px;
+}
+.offer-section h2{
+    color: white;
+}
+.offer-text{
+    width: 150px;
+    margin: 0 auto;
+}
+.offer-text .btn-primary{
+    padding: 7px 53px;
+
+}
+/* team section */
+.team-section{
+    width: 80%;
+    margin: 0 auto;
+    /* margin-top: 70px;
+    margin-bottom: 14px; */
+    padding-bottom: 50px;
+}
+.teams-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+   
+}
+.teams-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+  
+    
+    
+  
+}
+.special-image  {
+    width: 326px;
+    height: 272px;
+}
+.team-text{
+  text-align:center ;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(56, 52, 48);
+    border-radius: 10px;
+    justify-items: center;
+    /* width: 800px; */
+        
+}
+.profile{
+    position: relative;
+    background-color: #333;
+   border-radius:10px;
+   overflow: hidden;
+   text-align: center;
+   width: 306.67px;
+   height: 272px;
+}
+.profile img{
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: .8;
+}
+.profile .info{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 10px 0;
+}
+.profile h3{
+    margin: 0;
+    font-size: 1.2em;
+    color: rgb(255, 255,  255);
+}
+.profile p{
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#enroll{
+  
+    color: rgb(255, 255,  255);
+    width: 180px;
+    margin: 10px 2px 5px 1px;
+}
+/* footer styles */
+#footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.foot-container{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 40px;
+    margin-top: 90px;
+}
+
+.fit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    width: 443px;
+    height: 72px;
+    margin-top: 20px;
+    text-align: left;
+}
+.get{
+    width: 181px;
+    height: 171px;
+}
+.get-title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+   
+}
+.foot-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 12px;
+ 
+}
+.gets-title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+   
+}
+.foot-link-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.gets-title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.foot-link-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 12px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.fitnes{
+    text-align: center;
+    margin-top: 35px; 
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
 }
 /* responsive design */
 @media screen and (max-width:576px) {
@@ -472,6 +727,7 @@ input[type="email"]{
         color: rgb(255, 255,  255);
     }
   
+    
  
           /* banner responsive */
           @media screen and (max-width:576px) {
@@ -479,6 +735,12 @@ input[type="email"]{
                 flex-direction: column;
                 margin: 0 80px;
                
+            }
+            .banner-title{
+                margin-top: 40px;
+            }
+            .banner-description{
+                width: 280px;
             }
             .banner-img{
                 margin-top: 50px;
@@ -520,15 +782,25 @@ input[type="email"]{
                 top: 240px;
                 left: 10px;
             }
+            .primary-text{
+                margin-top: 30px;
+            }
             /* habit responsive design */
             .habit-image{
                 flex-direction: column;
+            }
+            .habit-greet{
+                width: 200px;
+                margin-bottom: 40px;
+                margin-left: 110px;
+                margin-top: 5px;
             }
             /* run responsive design */
             #join{
                 padding: 10px 0px;
                 width: 360px;
                 height: 54px;
+               
               
             }
             .Run-container{
@@ -541,6 +813,7 @@ input[type="email"]{
             }
             .run-tit{
                 width: 250px;
+                margin-top: 20px;
             }
             .run-greet{
                 width: 300px;
@@ -554,18 +827,94 @@ input[type="email"]{
               width: 400px;
             }
             .bmi-greet{
-                width: 300px;
+               width: 300px;
+                
+
             }
             /* bmi chart flex */
             .bmi-container{
                 flex-direction: column;
             }
             .bmi-cal-title{
-                margin-left: 95px;
+                margin-left: 125px;
             }
             table{
-              margin-left: 95px;
+              margin-left: 130px;
             }
+         #email{
+            width: 360px;
+            padding: 10px;
+         }
+          .form{
+            display: flex;
+          }
+          .bmi-form-greet{
+            width: 346px;
+            height: 72px;
+            margin: 14px 0px;
+            text-align: left;
           }
 
+
+          /* extra section responsive */
+          .offer-container{
+            flex-direction: column;
+            margin: 0 10px;
+          }
+
+
+
+
+
+        /* teams images */
+        .container{
+            grid-template-columns: repeat(1 ,1fr);
+            /* width: 453px; */
+            /* width: 400px; */
+            width: 353px;
+            margin: 0 auto;
+        }
+        .team-section{
+            margin: 0px 60px;
+
+        }
+          /* footer responsive */
+          #footer{
+            flex-direction: column;
+          }
+          #enroll{
+            padding-right: 50px;
+            margin-right: 90px;
+            width: 180px;
+            margin-top: 5px;
+          }
+          .fit-description{
+            width: 300px;
+            margin-bottom: 50px;
+          }
+          .get{
+          margin-bottom: 50px;
+          }
+          .fitnes{
+            padding-right: 45px;
+         
+          }
+
+          /* extra section */
+          .offer{
+            width: 100%;
+          }
+          .offer-section{
+            margin: 40px 20px;
+          }
+          .offer-container{
+            flex-direction: column;
+            gap: 20px;
+            justify-content:center ;
+            align-items: center;
+          
+          }
+     
+
+}
 }
