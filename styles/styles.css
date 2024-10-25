@@ -606,8 +606,10 @@ small {
     .btn-primary {
         padding: 15px 15px;
        
-
-
+    }
+    #join-now{
+    padding: 10px 20px;
+    width: 250px;
     }
       
 
